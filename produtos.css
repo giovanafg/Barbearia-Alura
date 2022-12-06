@@ -5,7 +5,7 @@
 }
 
 header {
-    background: #518534f8;
+    background: linear-gradient(45deg, #B8860B, #b1995d);
     padding: 1.8rem;
 }
 
@@ -37,7 +37,6 @@ nav a {
 nav a:hover {
     color: #ffffff;
     font-size: 31px;
-    text-decoration: underline;
 }
 
 

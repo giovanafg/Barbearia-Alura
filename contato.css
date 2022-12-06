@@ -6,7 +6,7 @@
 
 
 header {
-    background: #518534f8;
+    background: linear-gradient(45deg, #B8860B, #b1995d);
     padding: 1.8rem;
 }
 
@@ -38,7 +38,6 @@ nav a {
 nav a:hover {
     color: #ffffff;
     font-size: 31px;
-    text-decoration: underline;
 }
 
 main {
@@ -64,7 +63,7 @@ main {
 
 .campo input[type="text"], .campo input[type="email"], .campo input[type="number"], .campo textarea {
     padding: 16px 400px 16px 8px;
-    border: 1px solid #0b5323;
+    border: 1px solid #B8860B;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: inline-block;
     border-radius: 4px;
@@ -72,7 +71,7 @@ main {
   }
 
 .campo textarea{
-    border: 1px solid #0b5323;
+    border: 1px solid #B8860B;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: inline-block;
     outline: none;
@@ -107,7 +106,7 @@ label{
     color: white;
     font-weight: 400;
     font-size: 18px;
-    background: #217516;
+    background: #B8860B;
     padding: 16px;
     border-radius: 4px;
     transition: 1s;
@@ -117,7 +116,7 @@ label{
 
 .botao:hover {
     font-size: 18px;
-    background: #43b633;
+    background: #d4a734;
 }
 
 

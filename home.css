@@ -4,7 +4,7 @@
 }
 
 header {
-    background: #B8860B;
+    background: linear-gradient(45deg, #B8860B, #b1995d);
     padding: 1.8rem;
 }
 
@@ -37,7 +37,6 @@ nav a {
 nav a:hover {
     color: #ffffff;
     font-size: 31px;
-    text-decoration: underline;
 }
 
 #banner {
@@ -73,6 +72,7 @@ em strong {
 
 h2 {
     text-align: center;
+    padding-top: 54px;
     padding-bottom: 32px;
     font-size: 32px;
 
@@ -81,14 +81,14 @@ h2 {
 
 .beneficios {
     background: white;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    
 }    
 
 .itens {
     font: italic;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     list-style: none;
     padding-bottom: 20px;
 
@@ -96,15 +96,16 @@ h2 {
 }
 
 .lista-beneficios{
-    display: inline-block;
-    vertical-align: top;
-    padding-right: 200px;
-
-    
+   justify-content: center;
+   text-align: center;
+   font-size: 24;
+   font-weight: bold;
+   color: #5e4508;
 }
 
 .imagem-beneficios {
-    width: 50%;
+    width: 100%;
+    margin-bottom: 32px;
 }
 
 footer {
