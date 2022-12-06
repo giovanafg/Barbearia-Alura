@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="caixa">
-            <img src="assets/logo.png" alt="">
+            <img src="assets/logo.png" alt="logo da barbearia alura">
             
             <nav>
                 <ul>
@@ -22,8 +22,58 @@
         </div>
     </header>
 
+<main>
+    <form>
+        <div class="campo">
+            <h1 class="titulo-formulario">Envie seu formulário!</h1>
+        </div>
+
+        <div class="campo">
+            <label for="name">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo..." required>
+        </div>
+
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="seuemail@dominio.com" required>
+        </div>
+
+        <div class="campo">
+            <label for="number">Celular</label>
+            <input type="number" name="celular" id="celular" placeholder="ex.:(51) 99782-3210" required>
+        </div>
+
+        <div class="campo">
+            <br>
+            <label>Escreva sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" row="30" style="width: 16em"></textarea>
+        </div>
+        
+
+        <div class="campo">
+            <label class="titulo">Qual forma de contato você prefere?</label>
+            <label>
+                <label class="radio">
+                <input type="radio" name="devweb" value="email" checked >Email
+            </label>
+                <label class="radio">
+                <input type="radio" name="devweb" value="telefone" checkeed >Telefone
+            </label>
+                <label class="radio">
+                <input type="radio" name="devweb" value="whatsapp" checkeed >Whatsapp
+            </label>
+            </div>
+
+        <div class="campo">
+           <button class="botao" type="submit">Enviar formulário!</button>
+        </div>
+    </form>
+    <div>
+</div>
+</main>
+
     <footer>
-        <img src="assets/logo-branco.png" alt="">
+        <img src="assets/logo-branco.png" alt="logo da barbearia alura">
         <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
     </footer>
 </body>
