@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&display=swap');
+
+
 * {
     margin: 0;
     border: 0;
@@ -32,11 +35,15 @@ nav a {
     color: black;
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 nav a:hover {
     color: #ffffff;
     font-size: 31px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -44,7 +51,7 @@ nav a:hover {
 .produtos {
     display: flex;
     justify-content: space-around;
-    padding: 50px 0;
+    padding: 150px 0;
 }
 
 .produtos li {
@@ -52,43 +59,46 @@ nav a:hover {
     text-align: center;
     width: 25%;
     vertical-align: top;
-    padding: 30px 20px;
+    padding: 80px 20px;
     margin: 0 1.5%;
     box-sizing: border-box;
-    border-color: black;
     border-width: 2px;
     border-radius: 8px;
-    border-style: solid;   
+    box-shadow: 5px 3px 5px 3px #ada8a8;
     
 }
 
-.produtos li:hover {
-    border-color: #c78c19
-    
-}
 
 .produtos li:active {
-    border-color: #088C19;
+    border-color: #B8860B;
 }
 
 .produtos li:hover h2 {
     font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+
 
 }
 
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .descricao {
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .preco {
     font-size: 32px;
     font-weight: bold;
     margin-top: 16px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 footer {
@@ -96,6 +106,8 @@ footer {
     background: url('assets/bg.jpg');
     padding: 40px 0;
     color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+
 
 }
 
@@ -103,5 +115,7 @@ footer {
     font-size: 13px;
     color: #FFFFFF;
     margin-top: 20px 0 0;
+    font-family: 'Poppins', sans-serif;
+
     
 }

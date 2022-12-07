@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -32,11 +34,15 @@ nav a {
     color: black;
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 nav a:hover {
     color: #ffffff;
     font-size: 31px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 #banner {
@@ -52,6 +58,8 @@ nav a:hover {
     text-align: center;
     font-size: 40px;
     padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
   
 }
 
@@ -59,23 +67,29 @@ p {
     text-align: center;
     font-size: 18px;
     padding: 8px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 #missao {
     text-align: center;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 em strong {
-    color: rgb(184, 7, 7);
-}
+    color: linear-gradient(45deg, #B8860B, #b1995d)}
+
+
+
 
 h2 {
     text-align: center;
     padding-top: 54px;
     padding-bottom: 32px;
     font-size: 32px;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -91,6 +105,8 @@ h2 {
     font-size: 24px;
     list-style: none;
     padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
 
 
 }
@@ -101,11 +117,16 @@ h2 {
    font-size: 24;
    font-weight: bold;
    color: #5e4508;
+   font-family: 'Poppins', sans-serif;
+
 }
 
 .imagem-beneficios {
     width: 100%;
-    margin-bottom: 32px;
+    margin-top: 48px;
+    margin-bottom: 80px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px #797575;
 }
 
 footer {
@@ -119,5 +140,7 @@ footer {
     font-size: 13px;
     color: #FFFFFF;
     margin-top: 20px 0 0;
+    font-family: 'Poppins', sans-serif;
+
     
 }
